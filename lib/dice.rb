@@ -1,9 +1,7 @@
 class Dice
 
   def roll
-    number = rand(6)
-    puts number
-    return number
+    return rand(1...6)
   end
 
 end
